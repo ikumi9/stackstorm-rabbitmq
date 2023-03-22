@@ -1,0 +1,13 @@
+---
+name: test_pack
+pack: test_pack
+runner_type: "local-shell-script"
+description: Custom pack to clone a git repo and list directory!
+enabled: true
+entry_point: test_pack.sh
+parameters:
+    greeting:
+        type: string
+        description: Custom pack to clone a git repo and list directory!
+        required: true
+        position: 1
