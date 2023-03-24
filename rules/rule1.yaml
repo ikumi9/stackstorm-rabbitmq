@@ -8,4 +8,4 @@ trigger:
 action:
     ref: test_pack.test_pack
     parameters:
-        greeting: Yo
+        url: Yo

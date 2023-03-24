@@ -31,7 +31,7 @@ class HelloSensor(Sensor):
         while not self._stop:
             self._logger.debug("HelloSensor dispatching trigger...")
             count = self.sensor_service.get_value("test_pack.count") or 0
-            payload = {"greeting": "https://github.com/tiacloudconsult/hello_st2.git", "count": int(count) + 1}
+            payload = {"url": "https://github.com/tiacloudconsult/hello_st2.git", "count": int(count) + 1}
             self.sensor_service.dispatch(trigger="test_pack.event1", payload=payload)
             self.sensor_service.set_value("test_pack.count", payload["count"])
             eventlet.sleep(60)

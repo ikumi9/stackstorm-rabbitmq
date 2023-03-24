@@ -4,4 +4,4 @@ pack: test_pack
 description: "Custom pack to clone a git repo and list directory!"
 action_ref: "test_pack.test_pack"
 formats:
-  - "test_pack {{greeting}}"
+  - "test_pack {{url}}"

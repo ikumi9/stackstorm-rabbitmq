@@ -1,12 +1,12 @@
 ---
 name: test_pack
 pack: test_pack
-runner_type: "local-shell-script"
+runner_type: python-script
 description: Custom pack to clone a git repo and list directory!
 enabled: true
-entry_point: test_pack.sh
+entry_point: test_pack.py
 parameters:
-    greeting:
+    url:
         type: string
         description: Custom pack to clone a git repo and list directory!
         required: true

@@ -23,6 +23,7 @@ python_versions:
 # exact version, tag, or branch.
 dependencies:
   - core
+  - requests
 # Name of the pack author.
 author: TIA CLOUD
 # Email of the pack author.
