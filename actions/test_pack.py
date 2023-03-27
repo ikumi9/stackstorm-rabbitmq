@@ -24,8 +24,10 @@ def get_data():
     response = requests.get(url)
     data = json.loads(response.content)
     print(data)
+
 # Clone the repository
-repo_url = sys.argv[1]
+repo_url = "https://github.com/tiacloudconsult/hello_st2.git"
+print(repo_url)
 clone_repo(repo_url)
 
 # # Change directory to the repository and list the files and folders

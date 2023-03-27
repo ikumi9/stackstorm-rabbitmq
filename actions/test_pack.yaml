@@ -5,13 +5,4 @@ runner_type: python-script
 description: Custom pack to clone a git repo and list directory!
 enabled: true
 entry_point: test_pack.py
-parameters:
-    url:
-        type: string
-        description: Custom pack to clone a git repo and list directory!
-        required: true
-        position: 1
-output:
-    type: object
-    description: The data retrieved from the API endpoint
 
