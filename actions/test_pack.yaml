@@ -11,3 +11,7 @@ parameters:
         description: Custom pack to clone a git repo and list directory!
         required: true
         position: 1
+output:
+    type: object
+    description: The data retrieved from the API endpoint
+
