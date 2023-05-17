@@ -1,8 +1,0 @@
----
-name: test_pack
-pack: test_pack
-runner_type: python-script
-description: Custom pack to clone a git repo and list directory!
-enabled: true
-entry_point: test_pack.py
-
