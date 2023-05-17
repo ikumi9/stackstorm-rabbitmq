@@ -5,5 +5,4 @@ description: Limits the concurrent executions of the greet action.
 enabled: true
 resource_ref: test_pack.test_pack
 policy_type: action.concurrency
-parameters:
-    threshold: 10
+

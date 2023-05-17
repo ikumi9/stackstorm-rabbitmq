@@ -7,5 +7,4 @@ trigger:
     type: test_pack.event1
 action:
     ref: test_pack.test_pack
-    parameters:
-        url: Yo
+   

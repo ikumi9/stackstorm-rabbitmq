@@ -1,0 +1,7 @@
+---
+name: test_pack
+pack: test_pack
+runner_type: python-script
+description: Custom pack to fetch data from api endpoint!
+enabled: true
+entry_point: fetch_data_from_api.py

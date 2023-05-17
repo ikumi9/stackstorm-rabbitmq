@@ -4,7 +4,4 @@ description: Retry core.http action on timeout.
 enabled: true
 resource_ref: core.http
 policy_type: action.retry
-parameters:
-    retry_on: timeout
-    max_retry_count: 2
-    delay: 2
+
