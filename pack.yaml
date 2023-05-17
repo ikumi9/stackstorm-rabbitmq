@@ -21,10 +21,10 @@ python_versions:
 # Specify a list of dependency packs to install. If the pack is in StackStorm Exchange you can use
 # the pack name, or you can specify a full Git repository URL. Optionally, you can specify the
 # exact version, tag, or branch.
-dependencies:
-  - core
-  - requests
-  - pika
+#dependencies:
+#  - core
+#  - requests
+#  - pika
 # Name of the pack author.
 author: TIA CLOUD
 # Email of the pack author.
