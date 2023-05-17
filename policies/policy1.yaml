@@ -1,8 +1,0 @@
----
-name: test_pack.concurrency
-pack: test_pack
-description: Limits the concurrent executions of the greet action.
-enabled: true
-resource_ref: test_pack.test_pack
-policy_type: action.concurrency
-
